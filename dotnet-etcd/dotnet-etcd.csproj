@@ -23,7 +23,7 @@ Your applications can read and write data into etcd. A simple use-case is to sto
 Advanced uses take advantage of the consistency guarantees to implement database leader elections or do distributed locking across a cluster of workers.</Description>
     <PackageTags>etcd grpc etcdv3 etcd3</PackageTags>
     <SignAssembly>false</SignAssembly>
-    <Version>7.0.0-beta.240125.2</Version>
+    <Version>7.0.0-beta.240301.2</Version>
     <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageIconUrl />
@@ -57,10 +57,10 @@ Advanced uses take advantage of the consistency guarantees to implement database
 
 
   <ItemGroup>
-    <PackageReference Include="Google.Api.CommonProtos" Version="2.13.0" />
-    <PackageReference Include="Google.Protobuf" Version="3.25.2" />
-    <PackageReference Include="Grpc.Net.Client" Version="2.60.0" />
-    <PackageReference Include="Grpc.Tools" Version="2.60.0">
+    <PackageReference Include="Google.Api.CommonProtos" Version="2.14.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.25.3" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.61.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.62.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
